@@ -1,6 +1,6 @@
 
 function mesj() {
-    const numeroTelefono = "573014414701"// Escribe el numero sin el + del pais ejemplo 57325426421852154
+    const numeroTelefono = ""// Escribe el numero sin el + del pais ejemplo 57325426421852154
     const mensaje = document.getElementById('message-text').value
     const icono = document.getElementById('fixed-icon')
     new bootstrap.Modal(document.getElementById('exampleModal'))
