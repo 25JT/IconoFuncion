@@ -4,7 +4,7 @@ function mesj() {
     const mensaje = document.getElementById('message-text').value
     const icono = document.getElementById('fixed-icon')
     new bootstrap.Modal(document.getElementById('exampleModal'))
-       
+
     if (mensaje.trim() === "") {
         icono.style.display = 'none';
         Swal.fire({

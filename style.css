@@ -1,36 +1,41 @@
 .fixed-icon {
     position: fixed;
-    top: 50%; /*Ubicacion del icono */
+    top: 50%;
+    /*Ubicacion del icono */
     left: 50%;
     transform: translateY(-50%);
-    z-index: 9999; /*Peso del icono para que siempre este encima*/
+    z-index: 9999;
+    /*Peso del icono para que siempre este encima*/
     background-color: rgba(3, 253, 24, 0);
     /* Fondo blanco semi-transparente */
-    border: 1px solid #e96e93;    /* Borde del ícono */
+    border: 1px solid #e96e93;
+    /* Borde del ícono */
     border-radius: 10px;
     /* Bordes redondeados solo en la esquina derecha */
-  }
-  
-  .fixed-icon img {
+}
+
+.fixed-icon img {
     width: 90px;
     /* Ajusta el tamaño de la imagen según tus necesidades */
     height: auto;
     /* Mantiene la proporción de la imagen */
-  }
-  .fixed-icon:hover{
+}
+
+.fixed-icon:hover {
     background-color: #f3a0b9;
-  }
-  /* Media query para pantallas más pequeñas */
-  @media (max-width: 768px) {
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
     .fixed-icon {
-      left: 70%;
-      /* Ajusta la posición horizontal del ícono para pantallas más pequeñas */
+        left: 70%;
+        /* Ajusta la posición horizontal del ícono para pantallas más pequeñas */
     }
-  }
-  
-  @media (max-width: 480px) {
+}
+
+@media (max-width: 480px) {
     .fixed-icon {
-      left: 60%;
-      /* Ajusta la posición horizontal del ícono para pantallas muy pequeñas */
+        left: 60%;
+        /* Ajusta la posición horizontal del ícono para pantallas muy pequeñas */
     }
-  }
+}
