@@ -1,41 +1,59 @@
+
+
 .fixed-icon {
-    position: fixed;
-    top: 50%;
-    /*Ubicacion del icono */
-    left: 50%;
-    transform: translateY(-50%);
+    text-align: center;
+    margin: 300px 400px;
     z-index: 9999;
-    /*Peso del icono para que siempre este encima*/
-    background-color: rgba(3, 253, 24, 0);
-    /* Fondo blanco semi-transparente */
-    border: 1px solid #e96e93;
-    /* Borde del ícono */
-    border-radius: 10px;
-    /* Bordes redondeados solo en la esquina derecha */
+    background: #B6FFFA;
+    border: 3px  #98E4FF groove;
+    border-radius: 15px;
+    -webkit-box-shadow: -56px -9px 39px -9px rgba(0,0,0,0.62);
+    -moz-box-shadow: -56px -9px 39px -9px rgba(0,0,0,0.62);
+    box-shadow: -56px -9px 39px -9px rgba(0,0,0,0.62);
 }
 
 .fixed-icon img {
-    width: 90px;
+    width: 200px;
     /* Ajusta el tamaño de la imagen según tus necesidades */
     height: auto;
     /* Mantiene la proporción de la imagen */
 }
 
 .fixed-icon:hover {
-    background-color: #f3a0b9;
+    background-color: #98E4FF;
 }
 
-/* Media query para pantallas más pequeñas */
-@media (max-width: 768px) {
-    .fixed-icon {
-        left: 70%;
-        /* Ajusta la posición horizontal del ícono para pantallas más pequeñas */
-    }
+.fixed-icon h6{
+    color: #000000;
+    font-size: xx-large;
+
+}
+.fixed-icon h6:hover{
+    color: rgb(212, 8, 8);
+    
+
+}
+.btn{
+    width: 100%;    
 }
 
-@media (max-width: 480px) {
-    .fixed-icon {
-        left: 60%;
-        /* Ajusta la posición horizontal del ícono para pantallas muy pequeñas */
-    }
+.close{
+    background-color: #ffffff;
+    color: black;
+    text-transform: initial;
+}
+.close:hover{
+    background-color: #ff0000;
+    border: rgb(163, 0, 0) solid 2px;
+}
+.enviar{
+    background-color: rgb(0, 174, 255);
+    color: black;
+    text-transform: initial;
+    border: black solid 1px;
+}
+.enviar:hover{
+ background-color: rgb(8, 238, 238);
+ color: black;
+ border: rgb(10, 10, 10) solid 1px;
 }

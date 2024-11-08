@@ -11,6 +11,10 @@ function mesj() {
             icon: "warning",
             title: "Oops...",
             text: "Por favor escribe en el campo",
+            confirmButtonColor: "#ff0000",
+            background: "#e0dede",
+            color: "#000000",
+            
         }).then(() => {
             icono.style.display = 'block';
         });
